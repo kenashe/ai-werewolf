@@ -4,8 +4,6 @@
 
 An iterative multi-agent Werewolf prototype built through Hyperagent. Player agents ran on Fable 5. This repository preserves three versions of the project: the prompts and rules for each version, the raw game transcripts, the hidden-state logs (roles, night actions, Seer results, private votes, confessionals), the operator notes, and the run metadata.
 
-This is an artifact repository, not a standalone game engine. It preserves the prompts, rules, transcripts, hidden state, and run metadata from games orchestrated through Hyperagent.
-
 Nothing under `v1/`, `v2/`, or `v3/` has been edited. Factual errors made by agents during play are preserved as written.
 
 ## Main observation
@@ -42,7 +40,8 @@ Based on [`VERSION_SUMMARY.md`](VERSION_SUMMARY.md).
 - [`evidence/04-v3-transcript-correction.md`](evidence/04-v3-transcript-correction.md) — a V3 factual claim checked and corrected against the public transcript.
 - [`evidence/05-v3-grounded-wolf-strategy.md`](evidence/05-v3-grounded-wolf-strategy.md) — V3 wolves choosing a night target based on observable public behavior.
 - [`v3/output/OPERATOR_NOTES.md`](v3/output/OPERATOR_NOTES.md) — V3 isolation method, model parity, and logged anomalies.
-- [`docs/ESSAY_DRAFT.md`](docs/ESSAY_DRAFT.md) — draft essay about the project.
+- [Published essay](https://kenashe.ai/writing/ai-agents-reasoning-from-events-that-never-happened/) - the full write-up and central observation.
+- [`docs/ESSAY.md`](docs/ESSAY.md) - repository copy of the published essay.
 
 ## Usage note
 
@@ -59,7 +58,7 @@ Dollar figures in this repository are Hyperagent-reported metered usage and were
 | [`SOURCE_MANIFEST.md`](SOURCE_MANIFEST.md) | Description of the source bundle and its known gaps. |
 | [`VERSION_SUMMARY.md`](VERSION_SUMMARY.md) | Compact per-version facts. |
 | [`MANIFEST.sha256`](MANIFEST.sha256) | SHA-256 hashes of every file under `v1/`, `v2/`, `v3/`, `metadata/`, and `evidence/`. |
-| `docs/` | The essay draft. |
+| `docs/` | Repository copy of the published essay. |
 | `evidence/` | Five short, source-linked excerpts from the raw transcripts and private logs. |
 | `metadata/` | Structured run summary (`run-summary.csv`) and owner notes on how the figures were recorded. |
 | `v1/` | Version 1 specs (personas, Taste Test 001) and complete output for three games: labeled and blind transcripts, blind keys, sealed roles, recaps. |
