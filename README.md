@@ -4,6 +4,8 @@
 
 An iterative multi-agent Werewolf prototype built through Hyperagent. Player agents ran on Fable 5. This repository preserves three versions of the project: the prompts and rules for each version, the raw game transcripts, the hidden-state logs (roles, night actions, Seer results, private votes, confessionals), the operator notes, and the run metadata.
 
+This is an artifact repository, not a standalone game engine. It preserves the prompts, rules, transcripts, hidden state, and run metadata from games orchestrated through Hyperagent.
+
 Nothing under `v1/`, `v2/`, or `v3/` has been edited. Factual errors made by agents during play are preserved as written.
 
 ## Main observation
