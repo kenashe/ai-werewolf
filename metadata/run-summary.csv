@@ -1,0 +1,4 @@
+version,games,runtime_minutes,player_calls,subagent_tokens_approx,hyperagent_metered_usage_usd,usage_precision,notes
+v1,3,16,,2850000,18,approximate,Full three-game batch. Metered usage was covered by Hyperagent credits.
+v2,1,36,75,4440000,48,approximate,Single seven-player game. Metered usage was covered by Hyperagent credits.
+v3,1,116,231,19700000,50.29,runtime/calls/tokens approximate; usage exact as displayed,Single nine-player game. All player calls used Fable 5. Hyperagent also displayed a small amount of Fable 5.1 thread usage. Metered usage was covered by Hyperagent credits.
